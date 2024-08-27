@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .container {
@@ -89,4 +88,25 @@ footer img {
 
 footer img:hover{
     transform: scale(1.1);
+}
+
+
+@media (max-width: 480px) {
+    .menu a {
+        font-size: 16px;
+    }
+
+    .banner {
+        height: 200px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    footer img {
+        width: 30px;
+        height: 30px;
+    }
 }
